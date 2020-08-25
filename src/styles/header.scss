@@ -1,0 +1,52 @@
+@import "register";
+
+.Bgcolor {
+  background-color: red;
+}
+.grad {
+  background-image: $home-color;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  display: block;
+}
+.textcolor {
+  color: white;
+  font-weight: bold;
+}
+.header-with-topbar .navbar-top,
+.header-with-topbar .navbar-fixed-top {
+  top: 10px;
+  background: #ebf1fb;
+  box-shadow: 0 4px 10px -10px rgba(0, 0, 0, 0.6);
+  position: fixed;
+  z-index: 9999;
+  background-image: $home-color;
+}
+.navbar1 {
+  background-image: $home-color;
+}
+.footer {
+  background-image: $home-color;
+}
+.cardmargin {
+  margin: 50px;
+
+  border-radius: 6px;
+}
+
+.boxshadow {
+  box-shadow: 0 4px 10px -10px rgba(0, 0, 0, 0.6);
+}
+.margintop {
+  margin-top: 50px;
+}
+
+.boxwidth {
+  width: 18rem;
+}
+.footerpadding {
+  padding-bottom: 40px;
+}
